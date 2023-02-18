@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C60A37E298D9BFC009FE1D0 /* NewsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C60A37D298D9BFC009FE1D0 /* NewsListVC.swift */; };
+		5C60A388298E5F65009FE1D0 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C60A387298E5F65009FE1D0 /* NewsCell.swift */; };
+		5CE0D920298EC34700FA0BA5 /* AboutNewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE0D91F298EC34700FA0BA5 /* AboutNewsVC.swift */; };
+		5CE0D927298FBCDC00FA0BA5 /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE0D926298FBCDC00FA0BA5 /* WebViewVC.swift */; };
+		5CE5FC2F298D70B800C43A2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE5FC2E298D70B800C43A2F /* AppDelegate.swift */; };
+		5CE5FC31298D70B800C43A2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE5FC30298D70B800C43A2F /* SceneDelegate.swift */; };
+		5CE5FC38298D70B900C43A2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE5FC37298D70B900C43A2F /* Assets.xcassets */; };
+		5CE5FC3B298D70B900C43A2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE5FC39298D70B900C43A2F /* LaunchScreen.storyboard */; };
+		5CE5FC47298D72E800C43A2F /* NewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE5FC46298D72E800C43A2F /* NewsManager.swift */; };
+		5CE5FC49298D753700C43A2F /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE5FC48298D753700C43A2F /* NewsData.swift */; };
+		5CE5FC4B298D7A9300C43A2F /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE5FC4A298D7A9300C43A2F /* NewsModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C60A37D298D9BFC009FE1D0 /* NewsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListVC.swift; sourceTree = "<group>"; };
+		5C60A387298E5F65009FE1D0 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		5CE0D91F298EC34700FA0BA5 /* AboutNewsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutNewsVC.swift; sourceTree = "<group>"; };
+		5CE0D926298FBCDC00FA0BA5 /* WebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
+		5CE5FC2B298D70B800C43A2F /* intro-lab-nrakhay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "intro-lab-nrakhay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE5FC2E298D70B800C43A2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CE5FC30298D70B800C43A2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5CE5FC37298D70B900C43A2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CE5FC3A298D70B900C43A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CE5FC3C298D70B900C43A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE5FC46298D72E800C43A2F /* NewsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsManager.swift; sourceTree = "<group>"; };
+		5CE5FC48298D753700C43A2F /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
+		5CE5FC4A298D7A9300C43A2F /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CE5FC28298D70B800C43A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C60A389298E77E8009FE1D0 /* NewsViewContollers */ = {
+			isa = PBXGroup;
+			children = (
+				5C60A37D298D9BFC009FE1D0 /* NewsListVC.swift */,
+				5C60A387298E5F65009FE1D0 /* NewsCell.swift */,
+			);
+			path = NewsViewContollers;
+			sourceTree = "<group>";
+		};
+		5CE5FC22298D70B800C43A2F = {
+			isa = PBXGroup;
+			children = (
+				5CE5FC2D298D70B800C43A2F /* intro-lab-nrakhay */,
+				5CE5FC2C298D70B800C43A2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CE5FC2C298D70B800C43A2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CE5FC2B298D70B800C43A2F /* intro-lab-nrakhay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CE5FC2D298D70B800C43A2F /* intro-lab-nrakhay */ = {
+			isa = PBXGroup;
+			children = (
+				5CE5FC2E298D70B800C43A2F /* AppDelegate.swift */,
+				5CE5FC30298D70B800C43A2F /* SceneDelegate.swift */,
+				5CE5FC45298D729500C43A2F /* Controller */,
+				5CE5FC44298D728900C43A2F /* Model */,
+				5CE5FC37298D70B900C43A2F /* Assets.xcassets */,
+				5CE5FC39298D70B900C43A2F /* LaunchScreen.storyboard */,
+				5CE5FC3C298D70B900C43A2F /* Info.plist */,
+			);
+			path = "intro-lab-nrakhay";
+			sourceTree = "<group>";
+		};
+		5CE5FC44298D728900C43A2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CE5FC46298D72E800C43A2F /* NewsManager.swift */,
+				5CE5FC48298D753700C43A2F /* NewsData.swift */,
+				5CE5FC4A298D7A9300C43A2F /* NewsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CE5FC45298D729500C43A2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CE0D91F298EC34700FA0BA5 /* AboutNewsVC.swift */,
+				5C60A389298E77E8009FE1D0 /* NewsViewContollers */,
+				5CE0D926298FBCDC00FA0BA5 /* WebViewVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CE5FC2A298D70B800C43A2F /* intro-lab-nrakhay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE5FC3F298D70B900C43A2F /* Build configuration list for PBXNativeTarget "intro-lab-nrakhay" */;
+			buildPhases = (
+				5CE5FC27298D70B800C43A2F /* Sources */,
+				5CE5FC28298D70B800C43A2F /* Frameworks */,
+				5CE5FC29298D70B800C43A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "intro-lab-nrakhay";
+			productName = "intro-lab-nrakhay";
+			productReference = 5CE5FC2B298D70B800C43A2F /* intro-lab-nrakhay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CE5FC23298D70B800C43A2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5CE5FC2A298D70B800C43A2F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 5CE5FC26298D70B800C43A2F /* Build configuration list for PBXProject "intro-lab-nrakhay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CE5FC22298D70B800C43A2F;
+			productRefGroup = 5CE5FC2C298D70B800C43A2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CE5FC2A298D70B800C43A2F /* intro-lab-nrakhay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CE5FC29298D70B800C43A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE5FC3B298D70B900C43A2F /* LaunchScreen.storyboard in Resources */,
+				5CE5FC38298D70B900C43A2F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CE5FC27298D70B800C43A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE5FC4B298D7A9300C43A2F /* NewsModel.swift in Sources */,
+				5CE0D927298FBCDC00FA0BA5 /* WebViewVC.swift in Sources */,
+				5CE5FC47298D72E800C43A2F /* NewsManager.swift in Sources */,
+				5CE0D920298EC34700FA0BA5 /* AboutNewsVC.swift in Sources */,
+				5C60A37E298D9BFC009FE1D0 /* NewsListVC.swift in Sources */,
+				5CE5FC2F298D70B800C43A2F /* AppDelegate.swift in Sources */,
+				5CE5FC31298D70B800C43A2F /* SceneDelegate.swift in Sources */,
+				5C60A388298E5F65009FE1D0 /* NewsCell.swift in Sources */,
+				5CE5FC49298D753700C43A2F /* NewsData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CE5FC39298D70B900C43A2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CE5FC3A298D70B900C43A2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CE5FC3D298D70B900C43A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CE5FC3E298D70B900C43A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CE5FC40298D70B900C43A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AA27Q22GWM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "intro-lab-nrakhay/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nouraleee.intro-lab-nrakhay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CE5FC41298D70B900C43A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AA27Q22GWM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "intro-lab-nrakhay/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nouraleee.intro-lab-nrakhay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CE5FC26298D70B800C43A2F /* Build configuration list for PBXProject "intro-lab-nrakhay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5FC3D298D70B900C43A2F /* Debug */,
+				5CE5FC3E298D70B900C43A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CE5FC3F298D70B900C43A2F /* Build configuration list for PBXNativeTarget "intro-lab-nrakhay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5FC40298D70B900C43A2F /* Debug */,
+				5CE5FC41298D70B900C43A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CE5FC23298D70B800C43A2F /* Project object */;
+}
