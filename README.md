@@ -7,7 +7,7 @@ Main features: searching news by a keyword, opening more details about the news 
 
 
 <p align="middle">
-<img src="first-page.jpg" alt="first-page" title="Optional title" height="400">
-<img src="details.jpg" alt="details" title="Optional title" height="400">
-<img src="web-view.jpg" alt="webview" title="Optional title" height="400">
+<img src="assets/first-page.jpg" alt="first-page" title="Optional title" height="400">
+<img src="assets/details.jpg" alt="details" title="Optional title" height="400">
+<img src="assets/web-view.jpg" alt="webview" title="Optional title" height="400">
 </p>
